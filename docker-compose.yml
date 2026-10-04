@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tyler-tower:
+    build: .
+    container_name: tyler-tower-app
+    ports:
+      - "4520:80"
+    restart: unless-stopped

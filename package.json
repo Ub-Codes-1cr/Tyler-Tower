@@ -1,0 +1,38 @@
+{
+  "name": "tyler-tower",
+  "version": "1.0.0",
+  "description": "Tyler Tower — 3D Agentic Workspace with 300+ Autonomous AI Agents & 300+ Cognitive Skills",
+  "author": "Syed Ubada <https://github.com/Ub-Codes-1cr>",
+  "homepage": "https://github.com/Ub-Codes-1cr/Tyler-Tower#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ub-Codes-1cr/Tyler-Tower.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node serve.mjs",
+    "build": "node build.mjs",
+    "check": "node check.mjs",
+    "check:live": "CHECK_LIVE=1 node check.mjs",
+    "graph": "node graph-build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "d3-force": "^3.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1",
+    "three": "^0.185.1",
+    "playwright-core": "^1.62.0"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.80.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

@@ -1,0 +1,122 @@
+[
+ {
+  "id": "bench-testing",
+  "r": 103,
+  "deg": 17.98,
+  "ring": 2
+ },
+ {
+  "id": "bench-paid-media",
+  "r": 103,
+  "deg": 54.01,
+  "ring": 2
+ },
+ {
+  "id": "bench-project-management",
+  "r": 103,
+  "deg": 90,
+  "ring": 2
+ },
+ {
+  "id": "bench-academic",
+  "r": 103,
+  "deg": 125.99,
+  "ring": 2
+ },
+ {
+  "id": "bench-product",
+  "r": 103,
+  "deg": 162.02,
+  "ring": 2
+ },
+ {
+  "id": "bench-spatial-computing",
+  "r": 103,
+  "deg": 197.98,
+  "ring": 2
+ },
+ {
+  "id": "bench-support",
+  "r": 103,
+  "deg": 234.01,
+  "ring": 2
+ },
+ {
+  "id": "bench-finance",
+  "r": 103,
+  "deg": 270,
+  "ring": 2
+ },
+ {
+  "id": "bench-healthcare",
+  "r": 103,
+  "deg": 305.99,
+  "ring": 2
+ },
+ {
+  "id": "bench-research",
+  "r": 103,
+  "deg": 342.02,
+  "ring": 2
+ },
+ {
+  "id": "bench-engineering",
+  "r": 164,
+  "deg": 5.99,
+  "ring": 3
+ },
+ {
+  "id": "bench-marketing",
+  "r": 164,
+  "deg": 41.98,
+  "ring": 3
+ },
+ {
+  "id": "bench-game-development",
+  "r": 164,
+  "deg": 78,
+  "ring": 3
+ },
+ {
+  "id": "bench-specialized-a",
+  "r": 164,
+  "deg": 114,
+  "ring": 3
+ },
+ {
+  "id": "bench-specialized-b",
+  "r": 164,
+  "deg": 150,
+  "ring": 3
+ },
+ {
+  "id": "bench-specialized-c",
+  "r": 164,
+  "deg": 185.99,
+  "ring": 3
+ },
+ {
+  "id": "bench-gis",
+  "r": 164,
+  "deg": 221.98,
+  "ring": 3
+ },
+ {
+  "id": "bench-security",
+  "r": 164,
+  "deg": 258,
+  "ring": 3
+ },
+ {
+  "id": "bench-design",
+  "r": 164,
+  "deg": 294,
+  "ring": 3
+ },
+ {
+  "id": "bench-sales",
+  "r": 164,
+  "deg": 330,
+  "ring": 3
+ }
+]

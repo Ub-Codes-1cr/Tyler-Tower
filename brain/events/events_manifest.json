@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "event_name": "Bangalore AI Founder Mixer",
+    "location": "HSR Layout",
+    "date": "Day 1",
+    "key_takeaways": [
+      "Founders ditching standard wrappers for deterministic LangGraph agents",
+      "Sub-800ms latency is mandatory for voice SDRs",
+      "High migration to self-hosted open-source models"
+    ],
+    "image_asset": "./assets/event_001.jpg",
+    "status": "pending"
+  }
+]
