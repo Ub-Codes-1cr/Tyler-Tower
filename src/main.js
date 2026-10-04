@@ -2370,6 +2370,16 @@ resize();
   syncOverviewBtn();
 }
 
+// Deep links: /board, /calendar, /brain, /approvals, /connectors, /settings,
+// /tasks boot straight into that view instead of the home campus. Unknown
+// paths fall through to home. Runs once at load; in-app nav uses setRoute.
+{
+  const first = location.pathname.replace(/^\/+|\/+$/g, '').split('/')[0];
+  if (['connectors', 'brain', 'board', 'tasks', 'calendar', 'approvals', 'camera', 'settings'].includes(first)) {
+    setRoute(first, { updateHistory: false });
+  }
+}
+
 // -----------------------------------------------------------------------------
 // V3.8 Left Navigation Sidebar (10 Action Items) & Task Panel Toggle Wiring
 // -----------------------------------------------------------------------------
